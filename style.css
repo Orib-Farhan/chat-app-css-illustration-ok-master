@@ -15,6 +15,28 @@ body {
     align-items: center;
 }
 
+.purple {
+    width: 30%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0px 0px 1000px 1000px;
+    z-index: -1;
+    background-image: linear-gradient(270deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+}
+
+.grey {
+    width: 30%;
+    height: 80vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 1000px 0px 0px 0px;
+    z-index: -1;
+    background-color: rgba(240, 234, 234, 0.528);
+}
+
 .mobile {
     width: 200px;
     min-width: 200px;
@@ -26,6 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 30px 5px 30px 5px;
+    background-color: hsl(270, 20%, 96%);
 }
 
 .nav {
@@ -198,5 +221,16 @@ input {
         width: 80%;
         margin-bottom: 30px;
         text-align: center;
-      }
+    }
+
+    .purple {
+        width: 50%;
+        height: 50vh;
+        border-radius: 0px 0px 1000px 0px;
+    }
+    
+    .grey {
+        width: 50%;
+        height: 50vh;
+    }
 }
